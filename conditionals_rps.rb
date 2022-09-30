@@ -21,21 +21,19 @@ p "The computer played " + computer_pick
 if the_game=="rock"
   p "You played rock" 
 
-  if computer_pick == "rock"
-    p "tie"
+  if computer_pick == "scissors"
+    p "You won"
+
   elsif computer_pick == "paper"
-  
-  elsif
-  end
+    p "You lost"
 
+  elsif computer_pick == "scissors"
+
+  if computer_pick == "scissors"
+    p 
 elsif the_game == "paper"
-  p "You played paper"
+    p "You played paper"
+
 elsif the_game == "scissors" 
-  p "You played scissors"
+    p "You played scissors"
 end  
-
-p "You lost!"
-
-p "You won!"
-
-p "You tied!"
