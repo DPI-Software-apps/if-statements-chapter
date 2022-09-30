@@ -8,32 +8,38 @@
 
 
 p "Please choose rock, paper, or scissors:"
-# the_game=gets.chomp
+the_game=gets.chomp
 
-the_game = "paper"
+the_game = "You played"
 
 p the_game
 
-computer_pick=["rock", "paper", "scissors"].sample
+computer_pick=["scissors"].sample
 
 p "The computer played " + computer_pick
 
 if the_game=="rock"
   p "You played rock" 
 
-  if computer_pick == "scissors"
+elsif computer_pick == "scissors"
     p "You won"
 
-  elsif computer_pick == "paper"
+elsif the_game == "paper" 
+  p "You played paper"   
+
+elsif computer_pick == "scissors"
     p "You lost"
 
-  elsif computer_pick == "scissors"
+elsif the_game == "scissors"
+  p "You played scissors"    
 
-  if computer_pick == "scissors"
-    p 
-elsif the_game == "paper"
-    p "You played paper"
+else computer_pick == "scissors"
+    p "You tied"
+end
+  #if computer_pick == "scissors"
+    #p 
+#elsif the_game == "paper"
+    #p "You played paper"
 
-elsif the_game == "scissors" 
-    p "You played scissors"
-end  
+#elsif the_game == "scissors" 
+    #p "You played scissors"
