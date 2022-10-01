@@ -10,20 +10,19 @@
 p "Please choose rock, paper, or scissors:"
 the_game= gets.chomp
 
-the_game = "You played".to_i
-
-computer_pick=["scissors"].sample
-
-p "The computer played " + computer_pick
+p the_game = "The computer played scissors"
+p "You lost" 
+p "You won"
+p "You tied"
 
 if the_game=="rock"
   p "You played rock" 
 
 elsif computer_pick == "scissors"
-    p "You won"
+  
 
-elsif the_game == "paper" 
-  p "You played paper"   
+   the_game == "paper" 
+    p "You played paper"   
 
 elsif computer_pick == "scissors"
     p "You lost"
