@@ -8,11 +8,9 @@
 
 
 p "Please choose rock, paper, or scissors:"
-the_game=gets.chomp
+the_game= gets.chomp
 
-the_game = "You played"
-
-p the_game
+the_game = "You played".to_i
 
 computer_pick=["scissors"].sample
 
