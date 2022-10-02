@@ -11,27 +11,22 @@ p "Please choose rock, paper, or scissors:"
 the_game= gets.chomp
 
 p the_game = "The computer played scissors"
-p "You lost" 
-p "You won"
-p "You tied"
 
 if the_game=="rock"
   p "You played rock" 
 
-elsif computer_pick == "scissors"
+  p computer_pick == "scissors"
   
-
-   the_game == "paper" 
+elsif the_game == "paper" 
     p "You played paper"   
 
 elsif computer_pick == "scissors"
-    p "You lost"
-
+    
 elsif the_game == "scissors"
   p "You played scissors"    
 
 else computer_pick == "scissors"
-    p "You tied"
+
 end
   #if computer_pick == "scissors"
     #p 

@@ -16,3 +16,9 @@
 # true
 
 p "Enter one word"
+
+name = gets.chomp
+if name = hannah 
+  p true
+else 
+
