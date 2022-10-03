@@ -15,10 +15,11 @@
 # hannah
 # true
 
+name = gets.chomp
+
 p "Enter one word"
 
-name = gets.chomp
-if name = hannah 
-  p true
-else 
+if hannah.true
+ p "true for hannah"
 
+end
